@@ -1,0 +1,386 @@
+body{
+  background-color: #FAFAF5;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+#textblock {
+  background-color: #053135;
+  height: 76vh;
+}
+
+#textblock-container {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+#textblock-title {
+  color: #ffaf1b;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+#textblock-content {
+  color: #ffaf1b;
+  font-size: 20px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+#textblock-footer {
+  color: #ffaf1b;
+  font-size: 15px;
+  font-weight: 400;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  margin-bottom: 20px;
+
+}
+
+#textblock-devsense {
+  text-decoration: none;
+  color: #ffaf1b;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.animation, .animation_layer {
+	height: 1000px;
+}
+
+.animation {
+  display: block;
+	position: relative;
+	z-index: 10;
+}
+
+.animation_layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+.animation_layer.parallax {
+	position: fixed;
+}
+
+#artback {
+  background-image: url(./Components/Images/DocScanner\ Apr\ 14\,\ 2023\ 2-51\ PM-01-01.jpeg);
+}
+
+#mountain {
+  background-image: url(./Components/Images/img\ \(2\).png);
+}
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+#logo{
+  background-color: #FAFAF5;
+  height: 50vh;
+}
+#m
+{
+  font-size: 8rem;
+  letter-spacing: 0.5rem;
+  color: #222222;
+  transition: all 0.2s ease-in-out;
+  font-family: 'Aboreto', cursive;
+}
+#p
+{
+  font-size: 2.5rem;
+  letter-spacing: 0.25rem;
+  color: #222222;
+  font-family: 'Aboreto', cursive;
+}
+#top1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20vh;
+  padding-right: 40vw;
+}
+#d
+{
+  font-size: 5rem;
+  letter-spacing: 0.25rem;
+  color: #222222;
+  transition: all 0.2s ease-in-out;
+  font-family: 'Aboreto', cursive;
+}
+#o{
+  font-size: 2.5rem;
+  letter-spacing: 0.25rem;
+  color: #222222;
+  font-family: 'Aboreto', cursive;
+}
+#top2
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 13vh;
+  padding-right: 37vw;
+}
+#l{
+  font-size: 7rem;
+  letter-spacing: 0.5rem;
+  color: #222222;
+  transition: all 0.2s ease-in-out;
+  font-family: 'Aboreto', cursive;
+  padding-left: 16vw;
+}
+#a{
+  font-size: 2.5rem;
+  letter-spacing: 0.25rem;
+  color: #222222;
+  font-family: 'Aboreto', cursive;
+}
+#md_demo{
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,700&display=swap');
+#textblock-container {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+#textblock-container1 {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-right: 48vw;
+}
+#textblock-title1 {
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+#textblock-content1 {
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Cormorant Garamond', serif;
+}
+#textblock1 {
+  background-color: #FAFAF5;
+  height: 100vh;
+}
+#eg_11{
+  background-image: url('https://mdg.imgix.net/assets/images/vscode.png?auto=format&fit=clip&q=40&w=1080');
+}
+#md_demo1{
+  text-align: center;
+}
+.footer{
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Cormorant Garamond', serif;
+}
+#textblock-container3{
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 70px; 
+}
+#hi{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  padding-top: 5.2rem;
+}
+#button{
+  display: flex;
+  flex-direction: column;
+}
+#toopic{
+  padding-top: 15vh;
+}
+#summa{
+  padding-right: 17.5rem;
+}
+#buttons{
+  display: flex;
+  justify-content: right;
+}
+#aboutbutton{
+  padding-top: 10vh;
+}
+#terminalbutton{
+  padding-top: 10vh;
+}
+#documentbutton{
+  padding-top: 10vh;
+}
+#homebutton{
+  padding-top: 10vh;
+}
+#signupbutton{
+  padding-top: 10vh;
+}
+#email{
+  background-color: #d8e2dc;
+  margin-top: 5vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+#password{
+  background-color: #d8e2dc;
+  margin-top: 5vh;
+  margin-bottom: 7vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+#formsubmit{
+  text-align: center;
+  margin-bottom: 2vh;
+}
+#terminalbox{
+  background-color: white;
+}
+.button-89 {
+  --b: 2px;   /* border thickness */
+  --s: .38em; /* size of the corner */
+  --color: #373B44;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .125s linear, color 0s, background-color 2s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color:#053135;
+}
+.button-55 {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+.button-86 {
+  all: unset;
+  width: 40px;
+  height: 10px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-86::after,
+.button-86::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button-86::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #28282d;
+  border-radius: 10px;
+}
+
+.button-86::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button-86:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button-86:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.button-86:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
